@@ -7,6 +7,7 @@ import { SatDatepickerModule } from '../../saturn-datepicker/src/datepicker';
 import { SatNativeDateModule } from '../../saturn-datepicker/src/datetime';
 import { AppComponent } from './app.component';
 import { RangesFooter } from './ranges-footer.component';
+import { SatDatepickerDoubleModule } from '../../saturn-datepicker-double/datepicker-double-module';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { RangesFooter } from './ranges-footer.component';
         BrowserModule,
         BrowserAnimationsModule, ReactiveFormsModule, MatDatepickerModule,
         MatNativeDateModule, MatFormFieldModule, MatInputModule,
-        MatButtonModule, SatDatepickerModule, SatNativeDateModule
+        MatButtonModule, SatDatepickerModule, SatNativeDateModule,
+        SatDatepickerDoubleModule
     ],
     entryComponents: [RangesFooter],
     providers: [],
@@ -26,3 +28,4 @@ import { RangesFooter } from './ranges-footer.component';
 })
 export class AppModule {
 }
+

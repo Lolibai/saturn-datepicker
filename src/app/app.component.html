@@ -126,4 +126,26 @@
       </div>
     </section>
     <hr>
+    <section>
+        <h2>Range selection Double Calendar</h2>
+        <div>
+            <span class="code">rangeMode</span> option enables or disables range mode. Default is <span class="code">false</span>
+        </div>
+        <mat-form-field>
+            <input matInput
+                   placeholder="Choose a date"
+                   [satDatepicker]="picker7"
+                   formControlName="date">
+            <sat-double-datepicker #picker7 [rangeMode]="true">
+            </sat-double-datepicker>
+            <sat-datepicker-toggle matSuffix [for]="picker7"></sat-datepicker-toggle>
+        </mat-form-field>
+    </section>
+    <hr>
 </form>
+
+
+
+
+
+
