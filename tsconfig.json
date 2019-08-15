@@ -17,7 +17,19 @@
       "dom"
     ],
     "paths": {
-      "saturn-datepicker": [ "../dist/saturn-datepicker" ]
+      "saturn-datepicker": [
+        "../dist/saturn-datepicker"
+      ],
+      "saturn-datepicker-double": [
+        "dist/saturn-datepicker-double",
+        "dist/saturn-datepicker-double",
+        "dist/saturn-datepicker-double"
+      ],
+      "saturn-datepicker-double/*": [
+        "dist/saturn-datepicker-double/*",
+        "dist/saturn-datepicker-double/*",
+        "dist/saturn-datepicker-double/*"
+      ]
     }
   },
   "exclude": [
