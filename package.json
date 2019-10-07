@@ -4,6 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
+    "prepare": "npm run build:app && npm run build:lib",
     "ng": "ng",
     "start": "ng serve  --project=dev",
     "build": "ng build",
